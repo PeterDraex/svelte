@@ -17,7 +17,7 @@
 
 {#if showItems}
 	{#each items.slice(0, i) as item}
-		<div transition:slide>
+		<div transition:slide|global>
 			{item}
 		</div>
 	{/each}
